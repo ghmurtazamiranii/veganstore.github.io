@@ -1,0 +1,290 @@
+
+/* Body */
+body {
+    font-family: 'Poppins',sans-serif;
+}
+/* Utility Class - Start */
+.btn {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #aad236;
+    border: 1px solid #aad236;;
+    display: inline-block;
+    padding: 6px 38px;
+    border-radius: 4px;
+    font-size: 12px;
+    transition-duration: 0.3s;
+}
+.btn:hover{
+    color: #aad236;
+    background-color: transparent;
+}
+/* Utility Class - End */
+
+/* Navigation Bar */
+.navbar {
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    /* border: 2px solid green; */
+}
+.left {
+    height: 80px;
+    width: 8%;
+    box-sizing: border-box;
+    float: left;
+    /* border: 2px solid rebeccapurple; */
+
+}
+.left img {
+    width: 45px;
+    height: 45px;
+    
+}
+.right {
+    float: right;
+    width: 14%;
+    height: 80px;
+    box-sizing: border-box;
+    /* border: 2px solid magenta; */
+
+}
+.right, .mid, .left {
+  /* for aligning center <a> button in div*/
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.mid {
+    height: 80px;
+    width: 77%;
+    /* border: 2px solid darkblue; */
+
+}   
+.mid li {
+    list-style: none;
+    display: inline-block;
+
+ }
+.mid a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 0 18px;
+
+
+}.mid a:hover {
+    color: rgb(59, 56, 56);
+}
+
+/* First Section */
+.first-sec {
+    height: 510px;
+}
+
+.first-sec .bg-img {
+    display: block;
+    height: 510px;
+    background-image: url('../img/bg.jpg');
+    margin-left: 0;
+    margin-right: 0;
+}
+.first-sec .content {
+    text-align: center;
+    padding-top: 140px;
+    letter-spacing: 2px;
+    
+}
+.first-sec .content h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* Second Section */
+.second-sec {
+    height: 530px;
+}
+
+.second-sec .container .items {
+
+    width: 25%;
+    height: 530px;
+    float: left;
+    box-sizing: border-box;
+    padding: 65px 60px;
+   
+}
+.second-sec .container #item1 {
+    background-image: url('../img/1.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.second-sec .container #item2 {
+    background-image: url('../img/2.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.second-sec .container #item3 {
+    background-image: url('../img/3.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.second-sec .container #item4 {
+    background-image: url('../img/4.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.second-sec .container h2, .container p {
+    color: white;
+}
+.second-sec .container .shop-btn {
+    width: 155px;
+    height: 50px;
+    background-color: rgb(43, 41, 41);
+    border: 1px solid rgb(43, 41, 41);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px ;
+    cursor: pointer;
+}
+.second-sec .container .shop-btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.second-sec .container .shop-btn:hover {
+    background-color: transparent;
+    color: rgb(43, 41, 41);
+    transition-duration: 0.3s;
+}
+/* Third Section */
+.third-sec {
+    height: 450px;
+}
+.third-sec .figure {
+    height: 450px;
+    /* border: 1px solid red; */
+    background-color: rgb(228, 227, 227);
+    display: flex;
+}
+.third-sec .figure .fig-img {
+    float: left;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* border: 1px solid blue; */
+}
+.third-sec .figure .fig-img img {
+    width: 550px;
+    height: 365px;
+}
+.third-sec .figure .fig-content {
+    float: right;
+    width: 40%;
+    /* border: 1px solid blueviolet; */
+    padding: 90px 35px 0 0 ;
+}
+/* Fourth Section */
+.fourth-sec {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 200px;
+    height: 240px;
+}
+
+.fourth-sec h1 {
+    font-size: 35px;
+    color: white;
+}
+.fourth-sec .container button{
+    padding: 12px 20px;
+    margin: 0 12px;
+    border-radius: 4px ;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+.fourth-sec .container button:nth-child(1){
+    background-color: white;
+}
+.fourth-sec .container button:nth-child(2){
+    background-color: rgb(236, 138, 138);
+    color: white;
+    
+}
+.fourth-sec .container button:nth-child(1):hover{
+    background-color: transparent;
+    transition-duration: 0.3s;
+    border: 1px solid white;
+    color: white;
+}
+.fourth-sec .container button:nth-child(2):hover{
+    background-color: transparent;
+    transition-duration: 0.3s;
+    border: 1px solid rgb(236, 138, 138);
+    color:rgb(236, 138, 138);
+}
+/* Fifth Section */
+.fifth-sec {
+    display: flex;
+    height: 220px;
+    background-color: rgb(241, 217, 238);
+    padding: 10px 40px;
+}
+.fifth-sec div {
+    display: flex;
+    width: 50%;
+}
+.fifth-sec div:nth-child(1){
+    flex-direction: column;
+    justify-content: center;
+}
+.fifth-sec div:nth-child(2){
+    justify-content: center;
+    align-items: center;
+}
+.fifth-sec div h3 {
+    font-style: italic;
+    color: rgb(124, 160, 51);
+    font-size: 20px;
+
+}
+.fifth-sec div h1 {
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.fifth-sec div input{
+    width: 400px;
+    height: 38px;
+    border: none;
+    border-radius: 4px;
+    padding: 0 7px;
+    margin: 0 14px;
+    font-size: 15px;
+    font-family: 'Poppins',sans-serif;
+}
+.fifth-sec div .btn{
+    font-size: 15px;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+}
+
+/* End */

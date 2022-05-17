@@ -1,0 +1,9 @@
+body{
+    background-color: springgreen;
+}
+
+.second-sec .container {
+    display: flex;
+    flex-direction: column;
+
+}
